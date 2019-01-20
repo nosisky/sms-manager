@@ -1,0 +1,40 @@
+{
+  "name": "sms-manager",
+  "version": "1.0.0",
+  "description": "SMS management application API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --watch server --exec babel-node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nosisky/sms-manager.git"
+  },
+  "keywords": [],
+  "author": "Abdulrasaq Nasirudeen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nosisky/sms-manager/issues"
+  },
+  "homepage": "https://github.com/nosisky/sms-manager#readme",
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "express-validator": "^5.3.1",
+    "morgan": "^1.9.1",
+    "pg": "^7.8.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.42.0",
+    "swagger-jsdoc": "^3.2.6"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
